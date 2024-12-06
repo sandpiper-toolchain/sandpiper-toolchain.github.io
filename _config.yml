@@ -1,0 +1,110 @@
+
+title: sandpiper
+description: >- # this means to ignore newlines until "baseurl:"
+  sandpiper toolchain.
+url: "sandpiper-toolchain.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  sandpiper-toolchain
+tagline: acquisition to analysis toolchain
+refresh_remote_data: 'always'
+
+# Build settings
+markdown: kramdown
+theme: jekyll-theme-open-project
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Exclude from processing.
+includes_dir: .
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - node_modules
+  - vendor/bundle/
+  - vendor/bundler/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - 'Make*'
+  - '*sublime-*'
+  - .git
+  - "*.git"
+  - private/
+  - home-hero.html
+  - title.html
+  - nav-links.html
+  - flavor-sample-summary.html
+  - project-nav.html
+  - .sass-cache/
+  - private/
+  - assets/files/*.bib
+
+permalink: /blog/:month-:day-:year/:title/
+
+is_hub: true
+seo:
+  type: Organization
+
+social:
+  links:
+    - https://github.com/sandpiper-toolchain
+
+collections:
+  projects:
+    output: true
+  software:
+    output: false
+    permalink: /software/:path/
+  specs:
+    output: false
+    permalink: /specs/:path/
+  posts:
+    output: true
+    permalink: /blog/:month-:day-:year/:title/
+  pages:
+    output: true
+    permalink: /:name/
+  about:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+  - scope:
+      path: _posts
+      type: posts
+    values:
+      layout: post
+  - scope:
+      path: _project
+      type: project
+    values:
+      layout: product
+  - scope:
+      path: _specs
+      type: specs
+    values:
+      layout: spec
+
+external_links:
+  selector: 'body.site--project main a, body.site--hub.layout--post main a'
+  ignored_selectors:
+    - .layout--home a
+    - a[href*=travis]
+    - a[href*=coverity]
+    - a[href*=codecov]
+
+landing_priority: [software, specs, blog]
+
+fontawesome_cdn:
+  version: v5.8.1
+  integrity: "sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" 
+# Only applies if no_auto_fontawesome is not set.
+
+no_auto_fontawesome: false
+# If set to yes, site (with default design) must specify <script> elements
+# that make required FA styles available in SVG mode.

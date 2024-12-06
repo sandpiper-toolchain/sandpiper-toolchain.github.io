@@ -1,0 +1,48 @@
+{% assign contact_link = "mailto:" | append: site.contact_email %}
+
+{% if site.algolia_search %}
+  <div class="search-widget">
+    <input type="search" id="siteSearchInput" placeholder="Type to search…">
+  </div>
+{% endif %}
+
+{% if site.is_hub %}
+  {% include nav-page-link.html htmlclass="projects" url="/projects/" title="Projects" %}
+
+  {% if site.num_all_software > 0 %}
+    {% include nav-page-link.html htmlclass="software" url="/software/" title="Software" active_for_nested=true %}
+  {% endif %}
+  {% if site.num_all_specs > 0 %}
+    {% include nav-page-link.html htmlclass="specs" url="/specs/" title="Specifications" active_for_nested=true %}
+  {% endif %}
+  {% if site.num_posts_combined > 0 %}
+    {% include nav-page-link.html htmlclass="blog" url="/blog/" title="Blog" active_for_nested=true %}
+  {% endif %}
+  {% if 1 > 0 %}
+    {% include nav-page-link.html htmlclass="about" url="/about/" title="About" active_for_nested=true %}
+  {% endif %}
+
+{% else %}
+
+  {% if site.one_software %}
+    {% include nav-page-link.html htmlclass="docs" url=site.one_software.url title="Docs" active_for_nested=true %}
+  {% else %}
+    {% if site.num_all_software > 0 %}
+      {% include nav-page-link.html htmlclass="software" url="/software/" title="Software" active_for_nested=true %}
+    {% endif %}
+  {% endif %}
+
+  {% if site.num_all_specs > 0 %}
+    {% include nav-page-link.html htmlclass="specs" url="/specs/" title="Specifications" active_for_nested=true %}
+  {% endif %}
+
+  {% include project-nav.html %}
+
+  {% if site.num_posts_combined > 0 %}
+    {% include nav-page-link.html htmlclass="blog" url="/blog/" title="Blog" active_for_nested=true %}
+  {% endif %}
+{% endif %}
+
+{% if site.algolia_search %}
+  <a href="javascript: void 0;" class="search"><i class="fas fa-search"></i></a>
+{% endif %}

@@ -1,0 +1,66 @@
+---
+---
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700');
+
+$font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+$main-font-color: black !default;
+
+$primary-color: #e4ad67ff;
+$accent-color: #1a717fff;
+$secondary-accent-color: #ff8c57ff;
+
+
+$main-background: linear-gradient(315deg, $primary-color 0%, $primary-color 74%) !default;
+
+$hub-software--primary-color: #FAC174;
+$hub-software--primary-dark-color: darken(#F0B464, 20%);
+$hub-software--hero-background: linear-gradient(135deg, $hub-software--primary-dark-color 0%, #F6C481 100%);
+
+$hub-specs--primary-color: #F38B93;
+$hub-specs--primary-dark-color: #EA7680;
+$hub-specs--hero-background: linear-gradient(135deg, $hub-specs--primary-dark-color 0%, #F58B94 100%);
+
+@import 'jekyll-theme-open-project';
+
+.site-logo svg path {
+  fill: white;
+}
+
+.site--hub.layout--home {
+  > main {
+    > .main-section {
+      > .title {
+        color: $main-font-color;
+      }
+    }
+  }
+  > .underlay.header {
+    overflow-x: hidden;
+
+    @media screen and (min-width: $bigscreen-breakpoint) {
+      .hero {
+        padding-bottom: 20px;
+      }
+    }
+    @media screen and (min-width: $widescreen-breakpoint) {
+      background:
+        repeat-x bottom center/auto 30px url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='80' height='10' viewBox='0 0 80 10'><g transform='translate(0,-287)'><path d='m0 296s4.276 0.5991 5.212-2.074c0.9354-2.673 1.47-5.479 2.673-5.479 1.203 0 0.3757 2.203 1.203 2.94s2.264 0.289 3.341 0.9354 0.9354 3.341 2.806 2.94c1.871-0.4009 3.074-3.475 4.677-5.078 1.604-1.604 1.47 2.405 2.272 3.207 0.8018 0.8018 1.336 1.336 3.074 2.272 1.737 0.9354 15.64 1.203 16.84 0.4009 1.203-0.8018 3.875-0.8018 4.944-4.276 1.069-3.474 0.4009-5.479 3.207-3.608 2.806 1.871 0.8018 4.143 1.069 5.746s8.419 1.737 9.354 1.604c0.9354-0.1336 2.539-1.871 5.479-2.673 2.94-0.8018 4.677 0 7.216 2.005 2.539 2.005 6.634-1.424 6.634-1.424l7.19e-4 3.562h-80z' fill='#767676'/></g></svg>"),
+        $main-background;
+
+      .hero {
+        // To accommodate convex-concave SVG-based border
+        padding-bottom: 80px;
+      }
+    }
+
+    .hero .title {
+      font-weight: normal;
+    }
+
+    .cta .button {
+      border-radius: 4px;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+language: ruby
+cache: bundler # caching bundler gem packages will speed up build
+branches:
+  only:
+  - main
+rvm:
+  - 2.6
+sudo: false # route your build to the container-based infrastructure for a faster build
+
+install:
+  - bundle install
+  - gem install jekyll
+  - pip install --user awscli
+
+script:
+  - bundle exec jekyll build --trace
+  - bash ./scripts/reset_readme_deploy.sh
+
+deploy:
+  - provider: pages:git
+    github_token: $GITHUB_TOKEN
+    committer_from_gh: true
+    repo: sandpiper-toolchain/sandpiper-toolchain.github.io
+    target_branch: main
+    local-dir: _site/
+    edge: true
+    
