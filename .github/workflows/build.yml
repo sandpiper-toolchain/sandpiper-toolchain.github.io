@@ -1,4 +1,4 @@
-name: Deploy to built site repo
+name: Build and deploy site
 on: [push]
 jobs:
   build:
@@ -18,7 +18,7 @@ jobs:
             export JEKYLL_ENV=production
             bundle exec jekyll build --trace
 
-        - name: deploy static files to gh-pages branch
+        - name: Deploy
           uses: JamesIves/github-pages-deploy-action@v4
           if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
           with:
