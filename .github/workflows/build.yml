@@ -1,0 +1,29 @@
+name: Build and deploy site
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+        - uses: actions/checkout@v2
+
+        - name: Install Ruby, Jekyll, and dependencies
+          uses: ruby/setup-ruby@v1
+          with:
+            ruby-version: '3.0'
+            bundler-cache: true # runs 'bundle install'
+
+        - name: Build
+          run: |
+            JEKYLL_ENV=production
+            export JEKYLL_ENV=production
+            bundle exec jekyll build --trace
+
+        - name: Deploy
+          uses: JamesIves/github-pages-deploy-action@v4
+          if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
+          with:
+              GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+              EVENT_NAME: ${{ github.event_name }}
+              REF: ${{ github.ref }}
+              BRANCH: gh-pages
+              FOLDER: docs/build/html
