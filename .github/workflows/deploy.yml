@@ -20,7 +20,7 @@ jobs:
 
         - name: deploy static files to gh-pages branch
           uses: JamesIves/github-pages-deploy-action@v4
-          if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/develop' }}
+          if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
           with:
               GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
               EVENT_NAME: ${{ github.event_name }}
