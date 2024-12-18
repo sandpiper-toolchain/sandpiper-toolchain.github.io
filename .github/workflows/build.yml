@@ -26,4 +26,4 @@ jobs:
               EVENT_NAME: ${{ github.event_name }}
               REF: ${{ github.ref }}
               BRANCH: gh-pages
-              FOLDER: docs/build/html
+              FOLDER: _site
