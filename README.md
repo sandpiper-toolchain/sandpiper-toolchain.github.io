@@ -1,13 +1,13 @@
-# sandpiper-toolchain
+# sandpiper-web
 
-Materials for the [sandpiper-toolchain.org](https://sandpiper-toolchain.org) website.
+Materials for the sandpiper-toolchain [sandpiper.io](https://sandpiper.io) website.
 
 
 ## Hosting information
 
-The site is set up to build the Jekyll contents in this repository (https://github.com/sandpiper-toolchain/sandpiper-toolchain.org) on Travis CI, and then deploy the built site to GitHub Pages for hosting.
+The site is set up to build the Jekyll contents in this repository (https://github.com/sandpiper-toolchain/sandpiper.io) on Travis CI, and then deploy the built site to GitHub Pages for hosting.
 
-The site is served behind the alias `sandpiper-toolchain.org`, but you can always hit the site directly at http://sandpiper-toolchain.github.io.
+The site is served behind the alias `sandpiper.io`, but you can always hit the site directly at http://sandpiper-toolchain.github.io.
 
 
 ### Running a local instance
@@ -15,7 +15,7 @@ The site is served behind the alias `sandpiper-toolchain.org`, but you can alway
 If you want to make changes, or contribute a blog post (see below), you will need to get a local version of the code running to test the website.
 
 1. [install jekyll](https://jekyllrb.com/docs/installation/)
-1. `git clone https://github.com/sandpiper-toolchain/sandpiper-toolchain.org.git && cd sandpiper-toolchain.org`
+1. `git clone https://github.com/sandpiper-toolchain/sandpiper-web && cd sandpiper-web`
 1. `bundle exec jekyll serve`
 1. navigate in browser to `localhost:4000`. 
 
