@@ -18,9 +18,6 @@ jobs:
             export JEKYLL_ENV=production
             bundle exec jekyll build --trace
 
-  deploy:
-    runs-on: ubuntu-latest
-    steps:
         - name: deploy static files to gh-pages branch
           uses: JamesIves/github-pages-deploy-action@v4
           if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/develop' }}
