@@ -1,11 +1,11 @@
-# sandpiper-web
+# sandpiper-toolchain.github.io
 
-Materials for the sandpiper-toolchain [sandpiper.io](https://sandpiper.io) website.
+Materials for the sandpiper-toolchain [sandpiper-toolchain.github.io](https://sandpiper-toolchain.github.io) website.
 
 
 ## Hosting information
 
-The site is set up to build the Jekyll contents in this repository (https://github.com/sandpiper-toolchain/sandpiper.io) on Travis CI, and then deploy the built site to GitHub Pages for hosting.
+The site is set up to build the Jekyll contents in this repository (https://github.com/sandpiper-toolchain/sandpiper.io) via Github Actions, and deploy the built site to `gh-pages` branch for GitHub Pages hosting.
 
 The site is served behind the alias `sandpiper.io`, but you can always hit the site directly at http://sandpiper-toolchain.github.io.
 
@@ -15,7 +15,7 @@ The site is served behind the alias `sandpiper.io`, but you can always hit the s
 If you want to make changes, or contribute a blog post (see below), you will need to get a local version of the code running to test the website.
 
 1. [install jekyll](https://jekyllrb.com/docs/installation/)
-1. `git clone https://github.com/sandpiper-toolchain/sandpiper-web && cd sandpiper-web`
+1. `git clone https://github.com/sandpiper-toolchain/sandpiper-toolchain.github.io && cd sandpiper-toolchain.github.io`
 1. `bundle exec jekyll serve`
 1. navigate in browser to `localhost:4000`. 
 
@@ -39,8 +39,8 @@ A MWE for a post frontmatter is:
 ```yaml
 ---
 layout: post
-title:  "sandpiper-toolchain website overhaul"
-date:   2020-03-31 12:40:00 -0600
+title:  "sandpiper-toolchain new blog post"
+date:   2024-03-31
 categories: website
 ---
 ```
@@ -65,12 +65,12 @@ For example, the DeltaMetrics project `index.md` file includes:
 
 ```yaml
 ---
-title: DeltaMetrics
-description: Delta metric computations
+title: sandplover
+description: measuring rivers and deltas
 featured: true
-home_url: https://sandpiper-toolchain.github.io/DeltaMetrics
+home_url: https://sandpiper-toolchain.github.io/sandplover
 site:
-  git_repo_url: "https://github.com/sandpiper-toolchain/DeltaMetrics"
+  git_repo_url: "https://github.com/sandpiper-toolchain/sandplover"
 ---
 ```
 
@@ -88,6 +88,6 @@ If we have a version of that file in the repository, edit it here, otherwise, cr
 ### Colors / themes
 
 Most color options are set in the `assets/css/style.scss` file.
-The "sandpiper-toolchain" text is set as an SVG in the `title.html` file.
-The sandpiper-toolchain logo is set as an SVG in `assets/symbol.svg`.
+The "sandpiper" text is set as an SVG in the `title.html` file.
+The sandpiper logo is set as an SVG in `assets/symbol.svg`.
 Be sure to create the correct type of SVG files [SVG guidelines](https://github.com/riboseinc/jekyll-theme-open-project#svg-guidelines).
