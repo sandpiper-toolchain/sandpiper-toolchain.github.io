@@ -66,8 +66,6 @@ collections:
   pages:
     output: true
     permalink: /:name/
-  about:
-    output: true
 
 defaults:
   - scope:
