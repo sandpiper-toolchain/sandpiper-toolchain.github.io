@@ -61,3 +61,26 @@ $hub-specs--hero-background: linear-gradient(135deg, $hub-specs--primary-dark-co
     }
   }
 }
+
+.with-symbol-background {
+  position: relative;
+
+  > * {
+    z-index: 1;
+    position: relative;
+  }
+  > svg {
+    z-index: 0;
+    position: absolute;
+    top: -38px;
+    right: -60px;
+    height: 525px;
+    width: 525px;
+    path {
+      fill: rgba($primary-color, 0.08);
+    }
+    circle {
+      fill: none;
+    }
+  }
+}
