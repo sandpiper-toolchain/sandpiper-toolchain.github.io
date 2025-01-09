@@ -5,24 +5,8 @@ layout: about-index
 hero_include: index-page-hero.html
 ---
 
+Please visit [Launching sandpiper](/workshops/launch).
 
-## sandpiper25: Scoping a community-sustained toolchain to support geomorphology research
-
-
-### About
-
-
-
-### Schedule
-Dates April 17th + 18th at Saint Anthony Falls Laboratory in Minneapolis, MN, USA.
-
-
-### Registration
-
-Free. Apply here.
-
-
-### Financial support
-
-We have financial support to cover travel and lodging for ~30 attendees.
-
+<!-- The below is so that past workshops have a permalink that will always be accessible. To be uncommented after the first workshop is completed.-->
+<!-- ## Past workshops
+* [Launching sandpiper](/workshops/launch) -->
