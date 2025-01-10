@@ -11,7 +11,7 @@ permalink: /workshops/launch
 ### Essential information
 
 * *When:*   17<sup>th</sup> and 18<sup>th</sup> April at Saint Anthony Falls Laboratory in Minneapolis, MN, USA.
-* *Who:*   Anyone from the geomorphology community
+* *Who:*   Anyone from the geomorphology community.
 * *Registration:*   Free, with limited funding for travel and lodging available, [register here](https://docs.google.com/forms/d/e/1FAIpQLSfs8XdWrtB_pJGVDmQh3UHq8e2nOXeKE9J_1q-byiIBcZWwGQ/viewform?usp=sf_link). 
 * Register by 28<sup>th</sup> Feb 2025 for funding consideration; registration deadline 1<sup>st</sup> April 2025.
 
@@ -40,7 +40,7 @@ We will have keynote presentations (check our website for updates) and breakout 
 ### Schedule
 More detailed schedule to come.
 
-Day 1 – April 17, 2025
+Day 1 – 17<sup>th</sup> April 2025
   * Morning session: *Data sharing and standards: past efforts and future directions*
     * Keynote talk
     * Breakout discussion
@@ -50,7 +50,8 @@ Day 1 – April 17, 2025
     * Keynote talk
     * Breakout discussion
     * Moderated panel
-Day 2 – April 18, 2025
+
+Day 2 – 18<sup>th</sup> April 2025
   * Morning session: *Community analysis software for scientific reproducibility*
     * Keynote talk
     * Breakout discussion
