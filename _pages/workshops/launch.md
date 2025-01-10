@@ -1,5 +1,5 @@
 ---
-title: Launch workshop
+title: Launching sandpiper workshop
 description: .
 layout: about-index
 permalink: /workshops/launch
