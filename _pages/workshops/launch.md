@@ -70,6 +70,7 @@ Registration is free, and we have limited funds available to support attendees. 
 We can also provide up to $200 in additional support for attendee expenses incurred as a result of the workshop (e.g., childcare).
 
 **We will consider requests for funding support starting on 28<sup>th</sup> February 2025, and will send notices of awards by 15<sup>th</sup> March 2025.**
+Participants identified for funding support will be reimbursed after the conclusion of the workshop.
 
 **Deadline to register is 1<sup>st</sup> April 2025.**
 
