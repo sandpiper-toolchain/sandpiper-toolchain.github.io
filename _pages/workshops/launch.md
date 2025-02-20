@@ -42,24 +42,24 @@ More detailed schedule to come.
 
 Day 1 – 17<sup>th</sup> April 2025
   * Morning session: *Data sharing and standards: past efforts and future directions*
-    * Keynote talk
+    * Keynote talk: Greg Tucker
     * Breakout discussion
-    * Moderated panel
+    * Moderated panel: Leslie Hsu, Wonsuck Kim, Brandon McElroy, and Daven Quinn
   * Afternoon session: *Designing open-source hardware for geomorphology experiments*
     * Saint Anthony Falls Laboratory tour
-    * Keynote talk
+    * Keynote talk: Anastasia Piliouras
     * Breakout discussion
-    * Moderated panel
+    * Moderated panel: Mirko Musa, and Anya Leenman, Chris Ellis
 
 Day 2 – 18<sup>th</sup> April 2025
   * Morning session: *Community analysis software for scientific reproducibility*
-    * Keynote talk
+    * Keynote talk: Zoltán Sylvester
     * Breakout discussion
-    * Moderated panel
+    * Moderated panel: Will Kearney, Laurent Roberge
   * Afternoon session: *Forging a data standard that we can stick to*
-    * Keynote talk
-    * Breakout discussion
-    * Moderated panel
+    * Keynote talk: sandpiper team
+    * Breakout discussion: sandpiper team
+    * Moderated panel: sandpiper team
 
 
 
