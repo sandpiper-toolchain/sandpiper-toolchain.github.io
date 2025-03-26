@@ -38,29 +38,33 @@ We will have keynote presentations (check our website for updates) and breakout 
 
 
 ### Schedule
-More detailed schedule to come.
+Tentative schedule below.
+Daily start and end times will not change, but session and lunch starts and ends may be adjusted slightly, as we continue to finalize details.
 
 Day 1 – 17<sup>th</sup> April 2025
-  * Morning session: *Data sharing and standards: past efforts and future directions*
+  * 08:30 -- 09:00: Coffee and warmup activity 
+  * 09:00 -- 12:00: *Data sharing and standards: past efforts and future directions* (Session 1)
     * Keynote talk: Greg Tucker
     * Breakout discussion
     * Moderated panel: Leslie Hsu, Wonsuck Kim, Brandon McElroy, and Daven Quinn
-  * Afternoon session: *Designing open-source hardware for geomorphology experiments*
+  * 12:00 -- 13:15: Lunch, provided, at SAFL
+  * 13:15 -- 17:00: *Designing open-source hardware for geomorphology experiments* (Session 2)
     * Saint Anthony Falls Laboratory tour
     * Keynote talk: Anastasia Piliouras
     * Breakout discussion
-    * Moderated panel: Mirko Musa, and Anya Leenman, Chris Ellis
+    * Moderated panel: Mirko Musa, and Anya Leenman, Chris Ellis, Anastasia Piliouras 
 
 Day 2 – 18<sup>th</sup> April 2025
-  * Morning session: *Community analysis software for scientific reproducibility*
+  * 08:30 -- 09:00: Coffee and warmup activity
+  * 09:00 -- 11:45: *Community analysis software for scientific reproducibility* (Session 3)
     * Keynote talk: Zoltán Sylvester
     * Breakout discussion
-    * Moderated panel: Will Kearney, Laurent Roberge
-  * Afternoon session: *Forging a data standard that we can stick to*
-    * Keynote talk: sandpiper team
-    * Breakout discussion: sandpiper team
-    * Moderated panel: sandpiper team
-
+    * Moderated panel: Will Kearney, Greg Tucker, Zoltán Sylvester
+  * 11:45 -- 13:30: Lunch, provided, at SAFL
+  * 13:30 -- 16:30: *Forging a data standard that we can stick to* (Session 4)
+    * Breakout discussions
+    * Group synthesis discussions
+    * Concluding remarks and calls to action!
 
 
 ### Registration
