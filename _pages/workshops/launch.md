@@ -36,6 +36,8 @@ In this two-day workshop, attendees will identify community priorities for data 
 
 We will have keynote presentations (check our website for updates) and breakout discussions. Ultimately, our aspiration is that the sandpiper toolchain will grow to become a community resource. In these sessions, your ideas will guide the group, and help us identify what features this new community resource should have, and what priorities we should honor. We want you to be a part of this community, we want to help you do your research and work faster, better, and more reproducibly. We want you to help us see these ideas through to production.
 
+We are keeping a [working list of attendees here](https://docs.google.com/spreadsheets/d/1qgWbMkjgtbFXpqu83uhQ1Yuy97UBZPhU8EkFS3KdIyA/edit?usp=sharing), so that you can coordinate transportation, lodging, or meetings as you wish.
+
 
 ### Schedule
 Tentative schedule below.
