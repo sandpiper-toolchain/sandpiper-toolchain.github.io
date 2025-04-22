@@ -12,7 +12,7 @@ permalink: /workshops/launch
 
 * *When:*   17<sup>th</sup> and 18<sup>th</sup> April at Saint Anthony Falls Laboratory in Minneapolis, MN, USA.
 * *Who:*   Anyone from the geomorphology community.
-* *Registration:*   Free, with limited funding for travel and lodging available, [register here](https://docs.google.com/forms/d/e/1FAIpQLSfs8XdWrtB_pJGVDmQh3UHq8e2nOXeKE9J_1q-byiIBcZWwGQ/viewform?usp=sf_link). 
+* *Registration:*   Free, with limited funding for travel and lodging available, <s>register here</s>[registration is now closed].
 * Register by 28<sup>th</sup> Feb 2025 for funding consideration; registration deadline 1<sup>st</sup> April 2025.
 
 
@@ -80,4 +80,4 @@ Participants identified for funding support will be reimbursed after the conclus
 
 **Deadline to register is 1<sup>st</sup> April 2025.**
 
-To register, please fill out the [registration form](https://docs.google.com/forms/d/e/1FAIpQLSfs8XdWrtB_pJGVDmQh3UHq8e2nOXeKE9J_1q-byiIBcZWwGQ/viewform?usp=sf_link).
+To register, please fill out the <s>registration form</s>[registration is now closed].
