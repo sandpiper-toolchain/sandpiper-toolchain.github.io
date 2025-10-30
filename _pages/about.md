@@ -23,12 +23,6 @@ Major efforts of the project team include
 geomorphology (grey boxes) with our planned improvements (colored boxes) and sandpiper integration.
 
 
-## Workshop: Launching sandpiper: how to better collaborate and exchange data across geomorphology
-**We are organizing a workshop for Spring 2025, April 17th and 18th,** in Minneapolis, MN, USA. The goal of this workshop is to determine community priorities and draw a scope for the project. 
-
-**We have travel and lodging funding available for ~30 participants,** and we would love to have you join us. [Get more information about the workshop, and apply to be a part of it, here.](/workshops/launch)
-
-
 ## Contributing
 
 Interested in joining the effort? 
@@ -44,8 +38,18 @@ Ultimately, we are our community of users. [Join us on GitHub](https://github.co
 * Andrew Moodie; Texas A&M University
 * Eric Hutton; University of Colorado, Boulder
 
+Additional information on sandpiper toolchain governance, as well as individual project governance, can be found at [github.com/sandpiper-toolchain/governance](https://github.com/sandpiper-toolchain/governance).
+
 
 <!-- ## Other officially-affiliated folks -->
 
 <!-- add board of directors -->
 <!-- add alpha testers -->
+
+## Funding support
+
+The sandpiper toolchain is supported by the National Science Foundation, Directorate for Computer and Information Science and Engineering, Office of Advanced Cyberinfrastructure (OAC), and the GEO CI - GEO Cyberinfrastrctre, National Discovery Cloud for Climate Opportunities, Crosscutting Activities, Geomorphology & Land-use Dynamics, and Software Institutes programs. 
+
+Awards #2411033, #2411034, #2411035, and #2411036.
+
+![U.S. National Science Foundation logo](/assets/images/NSF_Official_logo_Med_Res_600ppi.png){:width="200px"}
