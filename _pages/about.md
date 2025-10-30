@@ -23,12 +23,6 @@ Major efforts of the project team include
 geomorphology (grey boxes) with our planned improvements (colored boxes) and sandpiper integration.
 
 
-## Workshop: Launching sandpiper: how to better collaborate and exchange data across geomorphology
-**We are organizing a workshop for Spring 2025, April 17th and 18th,** in Minneapolis, MN, USA. The goal of this workshop is to determine community priorities and draw a scope for the project. 
-
-**We have travel and lodging funding available for ~30 participants,** and we would love to have you join us. [Get more information about the workshop, and apply to be a part of it, here.](/workshops/launch)
-
-
 ## Contributing
 
 Interested in joining the effort? 
