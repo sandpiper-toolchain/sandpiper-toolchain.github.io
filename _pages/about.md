@@ -38,6 +38,8 @@ Ultimately, we are our community of users. [Join us on GitHub](https://github.co
 * Andrew Moodie; Texas A&M University
 * Eric Hutton; University of Colorado, Boulder
 
+Additional information on sandpiper toolchain governance, as well as individual project governance, can be found at [github.com/sandpiper-toolchain/governance](https://github.com/sandpiper-toolchain/governance).
+
 
 <!-- ## Other officially-affiliated folks -->
 
