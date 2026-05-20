@@ -5,9 +5,9 @@ Materials for the sandpiper-toolchain [sandpiper-toolchain.github.io](https://sa
 
 ## Hosting information
 
-The site is set up to build the Jekyll contents in this repository (https://github.com/sandpiper-toolchain/sandpiper.io) via Github Actions, and deploy the built site to `gh-pages` branch for GitHub Pages hosting.
+The site is set up to build the Jekyll contents in this repository (https://github.com/sandpiper-toolchain/sandpiper-toolchain.github.io) via Github Actions, and deploy the built site to `gh-pages` branch for GitHub Pages hosting.
 
-The site is served behind the alias `sandpiper.io`, but you can always hit the site directly at http://sandpiper-toolchain.github.io.
+The site is served behind the alias `sandpiper-toolchain.org`, but you can always hit the site directly at http://sandpiper-toolchain.github.io.
 
 
 ### Running a local instance
