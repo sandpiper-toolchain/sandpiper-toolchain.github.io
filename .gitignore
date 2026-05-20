@@ -5,6 +5,7 @@ _site/
 .sass-*
 
 _projects/*/.git
+_projects/*/.*
 _software/*/.git
 _software/*/docs
 _software/_*_repo
