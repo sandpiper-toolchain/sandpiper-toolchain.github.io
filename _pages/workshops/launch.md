@@ -12,7 +12,7 @@ permalink: /workshops/launch
 
 * *When:*   17<sup>th</sup> and 18<sup>th</sup> April at Saint Anthony Falls Laboratory in Minneapolis, MN, USA.
 * *Who:*   Anyone from the geomorphology community.
-* *Registration:*   Free, with limited funding for travel and lodging available, [register here](https://docs.google.com/forms/d/e/1FAIpQLSfs8XdWrtB_pJGVDmQh3UHq8e2nOXeKE9J_1q-byiIBcZWwGQ/viewform?usp=sf_link). 
+* *Registration:*   Free, with limited funding for travel and lodging available, <s>register here</s>[registration is now closed].
 * Register by 28<sup>th</sup> Feb 2025 for funding consideration; registration deadline 1<sup>st</sup> April 2025.
 
 
@@ -36,31 +36,37 @@ In this two-day workshop, attendees will identify community priorities for data 
 
 We will have keynote presentations (check our website for updates) and breakout discussions. Ultimately, our aspiration is that the sandpiper toolchain will grow to become a community resource. In these sessions, your ideas will guide the group, and help us identify what features this new community resource should have, and what priorities we should honor. We want you to be a part of this community, we want to help you do your research and work faster, better, and more reproducibly. We want you to help us see these ideas through to production.
 
+We are keeping a [working list of attendees here](https://docs.google.com/spreadsheets/d/1qgWbMkjgtbFXpqu83uhQ1Yuy97UBZPhU8EkFS3KdIyA/edit?usp=sharing), so that you can coordinate transportation, lodging, or meetings as you wish.
+
 
 ### Schedule
-More detailed schedule to come.
+Tentative schedule below.
+Daily start and end times will not change, but session and lunch starts and ends may be adjusted slightly, as we continue to finalize details.
 
 Day 1 – 17<sup>th</sup> April 2025
-  * Morning session: *Data sharing and standards: past efforts and future directions*
-    * Keynote talk
+  * 08:30 -- 09:00: Coffee and warmup activity 
+  * 09:00 -- 12:00: *Data sharing and standards: past efforts and future directions* (Session 1)
+    * Keynote talk: Greg Tucker
     * Breakout discussion
-    * Moderated panel
-  * Afternoon session: *Designing open-source hardware for geomorphology experiments*
+    * Moderated panel: Leslie Hsu, Wonsuck Kim, Brandon McElroy, and Daven Quinn
+  * 12:00 -- 13:15: Lunch, provided, at SAFL
+  * 13:15 -- 17:00: *Designing open-source hardware for geomorphology experiments* (Session 2)
     * Saint Anthony Falls Laboratory tour
-    * Keynote talk
+    * Keynote talk: Anastasia Piliouras
     * Breakout discussion
-    * Moderated panel
+    * Moderated panel: Mirko Musa, and Anya Leenman, Chris Ellis, Anastasia Piliouras 
 
 Day 2 – 18<sup>th</sup> April 2025
-  * Morning session: *Community analysis software for scientific reproducibility*
-    * Keynote talk
+  * 08:30 -- 09:00: Coffee and warmup activity
+  * 09:00 -- 11:45: *Community analysis software for scientific reproducibility* (Session 3)
+    * Keynote talk: Zoltán Sylvester
     * Breakout discussion
-    * Moderated panel
-  * Afternoon session: *Forging a data standard that we can stick to*
-    * Keynote talk
-    * Breakout discussion
-    * Moderated panel
-
+    * Moderated panel: Will Kearney, Greg Tucker, Zoltán Sylvester
+  * 11:45 -- 13:30: Lunch, provided, at SAFL
+  * 13:30 -- 16:30: *Forging a data standard that we can stick to* (Session 4)
+    * Breakout discussions
+    * Group synthesis discussions
+    * Concluding remarks and calls to action!
 
 
 ### Registration
@@ -74,4 +80,4 @@ Participants identified for funding support will be reimbursed after the conclus
 
 **Deadline to register is 1<sup>st</sup> April 2025.**
 
-To register, please fill out the [registration form](https://docs.google.com/forms/d/e/1FAIpQLSfs8XdWrtB_pJGVDmQh3UHq8e2nOXeKE9J_1q-byiIBcZWwGQ/viewform?usp=sf_link).
+To register, please fill out the <s>registration form</s>[registration is now closed].

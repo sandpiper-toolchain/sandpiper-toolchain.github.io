@@ -4,7 +4,7 @@ title:  "sandpiper-toolchain website"
 date:   2024-12-19
 categories: website
 excerpt: >-
-  The sandpiper website.
+  The sandpiper toolchain gets a website.
 ---
 
 
