@@ -15,3 +15,6 @@ _specs/*/
 Gemfile.lock
 
 .jekyll-cache/
+
+_projects/*/assets/*
+!_projects/*/assets/symbol.svg
