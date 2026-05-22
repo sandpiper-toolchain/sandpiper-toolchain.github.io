@@ -5,8 +5,15 @@ layout: about-index
 hero_include: index-page-hero.html
 ---
 
-Please visit [Launching sandpiper](/workshops/launch).
+<br>
+<div style="font-size: 24px;">
+&nbsp;
+We do not have any workshops currently planned. 
+Check back in the future!
+</div>
 
-<!-- The below is so that past workshops have a permalink that will always be accessible. To be uncommented after the first workshop is completed.-->
-<!-- ## Past workshops
-* [Launching sandpiper](/workshops/launch) -->
+
+ <!-- The below is so that past workshops have a permalink that will always be accessible. -->
+## Past workshops
+
+* [Launching sandpiper](/workshops/launch)
